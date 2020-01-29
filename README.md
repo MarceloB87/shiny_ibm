@@ -25,7 +25,7 @@ ipak(packages)
 
 ```
 
-If all packages are already installed, you can run the shiny app using the following commands:
+If all packages are already installed, you can run the shiny app using the following commands on RStudio:
 
 ```R
 library(shiny)
