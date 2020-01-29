@@ -51,7 +51,7 @@ max_gen = max(spp$ngen)
 # max_host <- max(host.list$h)
 
 ## load("./data/spplist_final.RData")
-load("./data/phenall.rData")
+#load("./data/phenall.rData")
 load("./data/df_prop.rData")
 load("./data/df_prop_first.rData")
 load("./data/shiny_index.Rdata")
