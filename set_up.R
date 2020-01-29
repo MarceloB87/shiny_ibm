@@ -52,8 +52,8 @@ max_gen = max(spp$ngen)
 
 ## load("./data/spplist_final.RData")
 #load("./data/phenall.rData")
-load("./data/df_prop.rData")
-load("./data/df_prop_first.rData")
+load("./data/df_prop.Rdata")
+load("./data/df_prop_first.Rdata")
 load("./data/shiny_index.Rdata")
 load("./data/first.Rdata")
 
