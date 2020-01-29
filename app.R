@@ -525,7 +525,7 @@ server <- function(input, output, clientData, session) {
   pal_host2 <- reactive(pal.list()$host)
   pal_dif2 <- reactive(pal.list()$dif)
   
-  phen.all2 <- reactive(phen.all.list[[(input$load_sim%%2) + 1]]) # Initial values
+  phen.all2 <- reactive(phen.all.list[[rv$index]]) # Initial values
   abund.list <- reactive(get.abund.list(rv$spp2, sps()))
   max_abund <- reactive(max(abund.list[[1]]))
   
