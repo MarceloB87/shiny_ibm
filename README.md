@@ -5,7 +5,7 @@ This is a shiny application to visualize and explore the results from a Individu
 
 Before running the app, please make sure that all the required packages are installed on your computer. You can use the following command:
 
-'''R
+```R
 ipak <- function(pkg){
 
   new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
@@ -23,14 +23,14 @@ packages <- c("shiny", "animation", "scales", "viridis",
               "ggplot2", "DT", "htmlwidgets", "shinyjs")
 ipak(packages)
 
-'''
+```
 
-If all packages are already installed, you can run the shiny app using the following command:
+If all packages are already installed, you can run the shiny app using the following commands:
 
-'''R
+```R
 library(shiny)
 runGitHub("shiny_ibm", "MarceloB87")
-'''
+```
 
 In case you decide to download the files to your computer, you can run the app following these steps:
 1. Download the files and unzip them to a folder in your computer.
